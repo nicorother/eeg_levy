@@ -1,0 +1,22 @@
+cid - source household id
+hid - current household id
+syear – year
+hghinc – monthly household income (net) 
+hgelectr – monthly electricity expenditures
+hlf0084 – annual electricity expenditures of the last year (only surveyed for homeowners, except for 2015)
+kwh – imputed electricity consumption (in kwh/month)
+eeg_paid – imputed EEG Levy Charge (in €/month)
+eeg_paid_ln – logged EEG Levy Charge (natural logarithm)
+eeg_paid_ishare_pct – EEG Levy Charge Income Share (in percent of household income)
+hghinc_quintile – Income Quintile of Household
+hgsize – dwelling size (in m²)
+hgowner – ownership of flat (categorical)
+wum1 – Dwelling Type (categorical)
+EEG – EEG Levy level in €/kwh
+Hgtyp2hh – household typology (categorical)
+Nr_member – household member count
+plh0037 – Climate Concern (categorical, individual level)
+mean_cli – Climate Concern Index (household level)
+rangedummy_cli_high – dummy for High Climate Concern Households (CCI < 2)
+rangedummy_cli_medium – dummy for High Climate Concern Households (CCI = 2)
+rangedummy_cli_low – dummy for High Climate Concern Households (CCI > 2)
