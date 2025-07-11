@@ -117,7 +117,7 @@ drop if hgsize < 0
 drop if syear == 2022
 drop if syear == 2014
 
-*Delete still observations where still no imputation was possible
+*Delete observations where still no imputation was possible
 drop if missing(hgelectr)
 
 
